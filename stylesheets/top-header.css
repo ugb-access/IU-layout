@@ -1,0 +1,76 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+header #top-header .btn-primary > span > i {
+  font-size: 25px;
+}
+header #top-header .top-header-inner-wrapper {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+}
+header #top-header .burger-icon-container {
+  padding: 4px 0;
+  cursor: pointer;
+}
+header #top-header .burger-icon > i {
+  font-size: 34px;
+}
+header #top-header #logo-container > a {
+  display: block;
+  max-width: 150px;
+  min-width: 125px;
+}
+header #top-header .logo {
+  display: block;
+  width: 100%;
+}
+header #top-header #search-container {
+  border: 3px solid #FF6801;
+  border-radius: 7px;
+  display: flex;
+  background-color: #FF6801;
+  overflow: hidden;
+  width: 60%;
+  min-width: 55%;
+}
+header #top-header .search-input-wrapper {
+  flex: 1;
+}
+header #top-header .search-input-wrapper > input {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 25px 2.5px;
+  font-size: 1.2rem;
+}
+header #top-header .search-input-wrapper > input::placeholder {
+  color: #090909;
+  font-size: 1.2rem;
+}
+header #top-header #top-header-links-wrapper {
+  display: flex;
+}
+header #top-header #top-header-links-wrapper > a {
+  margin-left: 16px;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+header #top-header .user-icon-container {
+  background: url("../images/icons/user.svg") no-repeat center;
+}
+header #top-header .contact-icon-container {
+  background: url("../images/icons/contact-us.svg") no-repeat center;
+}
+header #top-header .cart-icon-container {
+  background: url("../images/icons/cart.svg") no-repeat center;
+}
+
+/*# sourceMappingURL=top-header.css.map */

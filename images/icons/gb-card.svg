@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.966" height="58.667" viewBox="0 0 82.966 58.667">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.004" y1="0.989" x2="0.989" y2="0.017" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009862"/>
+      <stop offset="0.131" stop-color="#048e7d"/>
+      <stop offset="0.262" stop-color="#088791"/>
+      <stop offset="0.394" stop-color="#0a839d"/>
+      <stop offset="0.524" stop-color="#0b82a2"/>
+      <stop offset="0.622" stop-color="#0d7698"/>
+      <stop offset="0.796" stop-color="#13587e"/>
+      <stop offset="1" stop-color="#1c2d59"/>
+    </linearGradient>
+    <filter id="Rectangle_14" x="0" y="0" width="82.966" height="58.667" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.659"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_140" data-name="Group 140" transform="translate(-1127.667 -4272.333)">
+    <g transform="matrix(1, 0, 0, 1, 1127.67, 4272.33)" filter="url(#Rectangle_14)">
+      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="76.966" height="52.667" rx="3" transform="translate(2 2)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_132" data-name="Path 132" d="M365.5,255.167h22.423a6.475,6.475,0,0,1,5.214,6.622s.574,4.9-5.267,6.623H365.5Z" transform="translate(806.039 4032.255)" fill="#fff"/>
+    <path id="Path_133" data-name="Path 133" d="M365.5,302.5h22.423a6.475,6.475,0,0,1,5.214,6.623s.574,4.9-5.267,6.622H365.5Z" transform="translate(806.039 3999.731)" fill="#fff"/>
+    <path id="Path_134" data-name="Path 134" d="M270.11,252h5.006a13.61,13.61,0,0,1,13.61,13.61v.626H273.447V267.8h15.539v.522a13.61,13.61,0,0,1-13.61,13.61H270.11a13.61,13.61,0,0,1-13.61-13.61V265.61A13.61,13.61,0,0,1,270.11,252Z" transform="translate(880.936 4034.431)" fill="#fff"/>
+  </g>
+</svg>

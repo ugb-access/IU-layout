@@ -1,0 +1,157 @@
+/* Footer Starts */
+footer {
+  border-top: 1px solid rgba(0, 109, 165, 0.3);
+  /* Top Footer Starts */
+  /* Top Footer Ends */
+  /*Main Footer Starts*/
+  /*Main Footer Ends*/
+  /* Bottom Footer Starts */
+  /*Bottom Payemnt icons starts*/
+  /*Bottom Payemnt icons starts*/
+  /* Bottom Footer Ends */
+}
+footer section .row {
+  display: flex;
+  justify-content: space-between;
+}
+footer section#top-footer {
+  background-color: #F2F6F7;
+  border-bottom: 2px solid #FF6801;
+}
+footer #top-footer > article.top-footer-wrappaer {
+  padding: 8px 12px;
+}
+footer #top-footer > article.top-footer-wrappaer .column {
+  max-width: 24%;
+  display: flex;
+}
+footer #top-footer > article.top-footer-wrappaer .column .img-column {
+  width: 50%;
+  background-size: 50px;
+  background-position: center;
+  margin-right: 8px;
+}
+footer article.top-footer-wrappaer .column .text-column-heading {
+  font-size: 14px;
+}
+footer article.top-footer-wrappaer .column .text-column-sentence {
+  font-size: 13px;
+}
+footer .satisfaction-guarantee {
+  background: url("../images/icons/satis-gurantee.svg") no-repeat;
+}
+footer .secure-checkout {
+  background: url("../images/icons/secure-checkout.svg") no-repeat;
+  background-size: 40px !important;
+}
+footer .great-value {
+  background: url("../images/icons/great-value.svg") no-repeat;
+}
+footer .worldwide-delivery {
+  background: url("../images/icons/worldwide-delivery.svg") no-repeat;
+  background-size: 60px !important;
+}
+footer section#main-footer {
+  background-color: #006DA5;
+  border: 1px slid #707070;
+}
+footer section#main-footer .main-footer-inner-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+footer section#main-footer .main-footer-inner-wrapper .column {
+  margin: 0 24px;
+}
+footer section#main-footer .main-footer-inner-wrapper > .row {
+  padding: 0 24px;
+}
+footer section#main-footer .main-footer-inner-wrapper > .row:first-child {
+  border-right: 2px solid #fff;
+  padding-left: 0;
+  width: 100%;
+}
+footer section#main-footer .main-footer-inner-wrapper > .row:last-child {
+  padding-right: 0;
+}
+footer section#main-footer .main-footer-inner-wrapper > .row:last-child .column:last-child {
+  margin-right: 0;
+}
+footer section#main-footer .main-footer-inner-wrapper h3 {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+footer section#main-footer .main-footer-inner-wrapper li {
+  padding: 8px 0;
+  color: #fff;
+}
+footer section#main-footer .main-footer-inner-wrapper li > a {
+  font-size: 16px;
+  color: #fff;
+}
+footer section#main-footer .block-4 .subscribe-container {
+  display: flex;
+  height: 35px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+}
+footer section#main-footer .block-4 .subscribe-container .subscribe-input {
+  border: 0;
+  width: 100%;
+}
+footer section#main-footer .block-4 .subscribe-container .subscribe-btn {
+  border-radius: 7px;
+  width: 45px;
+  height: 100%;
+  outline-color: #FF6801;
+  padding: 0;
+  border-top: 1px solid #FF6801;
+  background: url("../images/icons/subscribe-arrow.svg") no-repeat center;
+  background-color: #FF6801;
+}
+footer #bottom-footer .bottom-footer-inner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+footer #bottom-footer .bottom-footer-inner-wrapper > li > a {
+  padding: 0px 12px;
+  border-right: 1px solid #707070;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1rem;
+}
+footer #bottom-footer .bottom-footer-inner-wrapper > li:last-child > a {
+  border-right: 0;
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li {
+  margin-right: 12px;
+  width: 50px;
+  height: 35px;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li.visa-card-icon {
+  background: url("../images/icons/visa.svg");
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li.master-card-icon {
+  background: url("../images/icons/mastercard.svg");
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li.paypal-icon {
+  background: url("../images/icons/paypal.svg");
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li.gb-card-icon {
+  background: url("../images/icons/gb-card.svg");
+}
+footer #footer-payment-icons .footer-payment-icons-inner-wrapper > li.american-express-icon {
+  background: url("../images/icons/american-express.svg");
+}
+
+/* Footer Starts */
+
+/*# sourceMappingURL=footer.css.map */

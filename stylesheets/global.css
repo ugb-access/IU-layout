@@ -1,0 +1,49 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main Styling */
+@font-face {
+  font-family: AmazonEmber;
+  src: url("../fonts/amazon_ember/AmazonEmber_Rg.ttf");
+}
+html, body {
+  font-family: AmazonEmber;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+  color: #090909;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1220px;
+  margin: auto;
+  padding: 8px 4px;
+}
+
+.btn {
+  border: none;
+  background: none;
+  padding: 8px 25px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  color: #f4f4f4;
+}
+
+/*# sourceMappingURL=global.css.map */

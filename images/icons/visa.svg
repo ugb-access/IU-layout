@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.927" height="59.582" viewBox="0 0 82.927 59.582">
+  <defs>
+    <filter id="Base" x="0" y="0" width="82.927" height="59.582" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.698" y1="1" x2="0.302" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 0 0">
+      <image/>
+    </pattern>
+  </defs>
+  <g id="Group_144" data-name="Group 144" transform="translate(-709.583 -4271.565)">
+    <g id="Base-2" data-name="Base" transform="translate(714.083 4275.065)">
+      <g transform="matrix(1, 0, 0, 1, -4.5, -3.5)" filter="url(#Base)">
+        <path id="Base-3" data-name="Base" d="M40.058,137h63.81a5.058,5.058,0,0,1,5.058,5.058v39.681c0,3.927-2.09,5.843-5.843,5.843H40.843c-3.84,0-5.843-2.09-5.843-5.843V142.058A5.058,5.058,0,0,1,40.058,137Z" transform="translate(-30.5 -133.5)" fill="#f5f5f5"/>
+      </g>
+      <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M5.063,0H68.937A5.082,5.082,0,0,1,74,5.1V45.109C74,49.068,71.908,51,68.151,51H5.849C2.005,51,0,48.893,0,45.109V5.1A5.082,5.082,0,0,1,5.063,0Z" transform="translate(-0.041 -0.065)" opacity="0.03" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Border" transform="translate(714 4274.931)">
+      <path id="Border-2" data-name="Border" d="M108.985,175.9s.015,4.325.015,7.734a4.315,4.315,0,0,1-4.068,4.049h-66a4.241,4.241,0,0,1-3.889-3.875c0-10.789-.09-40.5-.09-42.312a4.993,4.993,0,0,1,3.9-4.562v36.363c0,1.973,1.2,2.6,3.154,2.6Z" transform="translate(-34.957 -136.931)" fill="#001ea4"/>
+      <path id="Gradient_Overlay-2" data-name="Gradient Overlay" d="M74.028,38.965s.015,4.325.015,7.734a4.315,4.315,0,0,1-4.068,4.049h-66A4.241,4.241,0,0,1,.09,46.874C.09,36.085,0,6.37,0,4.562A4.993,4.993,0,0,1,3.9,0V36.363c0,1.973,1.2,2.6,3.154,2.6Z" transform="translate(0 0)" opacity="0.08" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Logo" transform="translate(723.812 4284.793)">
+      <rect id="Layer_2" data-name="Layer 2" transform="translate(0.231 0.207)" fill="url(#pattern)"/>
+      <path id="Visa" d="M21.41,17.055l.608-4.367.573.268a8.653,8.653,0,0,0,4.075.893c1.25,0,2.591-.518,2.609-1.644,0-.732-.573-1.268-2.252-2.091-1.644-.8-3.842-2.143-3.807-4.556C23.232,2.287,26.253,0,30.543,0a10.711,10.711,0,0,1,3.894.714l-.588,3.628-.394-.179a7.364,7.364,0,0,0-3.234-.643c-1.716,0-2.485.732-2.5,1.446,0,.786.93,1.3,2.448,2.073,2.5,1.2,3.663,2.662,3.646,4.575-.035,3.483-3,6.333-7.559,6.333A13.2,13.2,0,0,1,21.41,17.055Zm23.644.883s-.392-2.646-.518-3.236H38.96c-.161.447-.912,3.236-.912,3.236H33.492L39.942,1.7A2.141,2.141,0,0,1,42.212.3h3.36l3.5,17.633ZM40.21,11.509h3.611c-.179-.84-1-4.861-1-4.861l-.3-1.448c-.215.627-.59,1.644-.573,1.609C41.944,6.81,40.567,10.545,40.21,11.509ZM14.35,17.938,17.067.3H21.41L18.694,17.938ZM3.9,17.92,0,2.4A12.849,12.849,0,0,1,6,9.435l.464,2.324L10.723.3h4.593L8.489,17.92Z" transform="translate(5.775 1.565)" fill="#001ea4"/>
+      <path id="Swish" d="M7.641.9H.654l-.071.339c5.451,1.394,9.061,4.753,10.544,8.792L9.607,2.311A1.8,1.8,0,0,0,7.641.9Z" transform="translate(0.55 0.851)" fill="#fec434"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+nav#navbar {
+    background-color: #006DA5;
+    .navbar-inner-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar-inner-wrapper > li {
+        list-style: none;
+        margin-right: 8px;
+        
+    }
+    
+    .navbar-inner-wrapper > li > a {
+        padding: 4px 8px;
+        color: #fff;
+    }
+    
+    .navbar-inner-wrapper > li > a:hover {
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+    }
+}
+

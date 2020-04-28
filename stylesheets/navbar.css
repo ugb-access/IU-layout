@@ -1,0 +1,22 @@
+nav#navbar {
+  background-color: #006DA5;
+}
+nav#navbar .navbar-inner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+nav#navbar .navbar-inner-wrapper > li {
+  list-style: none;
+  margin-right: 8px;
+}
+nav#navbar .navbar-inner-wrapper > li > a {
+  padding: 4px 8px;
+  color: #fff;
+}
+nav#navbar .navbar-inner-wrapper > li > a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "iu-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanbaig1212/IU-layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmanbaig1212/IU-layout/issues"
+  },
+  "homepage": "https://github.com/usmanbaig1212/IU-layout#readme"
+}
