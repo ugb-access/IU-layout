@@ -1,0 +1,29 @@
+#iu-stories-mobile {
+    display: none;
+    @media(max-width: 1024px) {
+        display: block;
+        overflow: hidden;
+        .iu-stories-inner-wrapper {
+            display: flex;
+            .owl-stage-outer {
+                .owl-stage{
+                    display: flex;
+                    .iu-story-container {
+                        .iu-story-img {
+                            width: 50px;
+                            background-color: #ccc;
+                            height: 50px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }   
+        }
+        .owl-dots {
+            display: none;
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
+}

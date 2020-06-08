@@ -11,9 +11,15 @@ main {
     }
 
     .main-section-title {
+        // font-size: 16px;
         h2 {
             text-transform: uppercase;
-
+            @media(max-width: 1024px) {
+                font-size: 1.35rem;
+            }
+            @media(max-width: 660px) {
+                font-size: 1.25rem;
+            }
             &:after {
                 content: "";
                 border-bottom: 4px solid #FA6A35;
@@ -110,10 +116,22 @@ main {
             justify-content: center;
             align-items: center;
             color: #fff;
+
+            @media(max-width: 1024px) {
+                background-color: #F2F6F7;
+                top: 0;
+                bottom: 0;
+                height: unset;
+                display: none;
+            }
             i {
                 font-size: 30px;
-                
+                @media(max-width: 660px) {
+                    font-size: 20px;
+                    color: #fa6a35;
+                }
             }
+
         }
         .custom-next-btn {
             background-color: rgba(255, 255, 255, 0.6);
@@ -128,8 +146,20 @@ main {
             align-items: center;
             color: #fff;
 
+            @media(max-width: 1024px) {
+                background-color: #F2F6F7;
+                top: 0;
+                bottom: 0;
+                height: unset;
+                // display: none;
+            }
+
             i {
                 font-size: 30px;
+                @media(max-width: 1024px) {
+                    font-size: 20px;
+                    color: #fa6a35;
+                }
             }
         }    
     }
@@ -142,19 +172,31 @@ main {
             margin-right: 16px;
             margin-bottom: 16px;
             width: calc((100% / 5) - 16px) ;
+            @media(max-width: 1024px) {
+                width: calc((100% / 3) - 16px) ;
+            }
+            @media(max-width: 660px) {
+                width: calc((100% / 2) - 16px) ;
+                &:nth-child(even) {
+                    margin-right: 0;
+                }
+            }
+        }
+        
+    }
 
-           
-        }
-        .discover-more-btn {
-            text-transform: uppercase;
-            color: #fff;
-            background-color: #FA6A35;
-            font-size: 22px;
-            font-weight: bold;
-            border-radius: 5px;
-            padding: 8px 24px;
-            margin-top: 16px;
-        }
+    .discover-more-btn {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #FA6A35;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 8px 24px;
+        margin-top: 16px;
+        // display: inline-block;
+        width: max-content;
+        margin: 16px auto 0;
     }
     
 }

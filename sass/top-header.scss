@@ -15,6 +15,23 @@ header {
             justify-content: space-between;
             height: 75px;
             align-items: center;
+            @media(max-width: 768px) {
+                // padding: 0.75rem 0.5rem;
+                height: 55px;
+            }
+            .col-1 {
+                display: flex;
+                align-items: center;
+            }
+
+            .col-2 {
+                width: 60%;
+                min-width: 55%;
+
+                @media(max-width: 1024px) {
+                    display: none;
+                }
+            }
         }
         .burger-icon-container {
             padding: 4px 0;
@@ -22,11 +39,19 @@ header {
         }
         .burger-icon > i {
             font-size: 34px;
+            @media(max-width: 1024px) {
+                font-size: 28px;
+            }
         }
+
         #logo-container > a {
             display: block;
             max-width: 150px;
-            min-width: 125px;
+            // min-width: 125px;
+
+            @media(max-width: 1024px) {
+                max-width: 125px;
+            }
         }
         .logo {
             display: block;
@@ -34,15 +59,21 @@ header {
         }
         
     
-        #search-container {
+        #search-container-desktop {
             border: 3px solid #FF6801;
             border-radius: 7px;
             display: flex;
             background-color: #FF6801;
             overflow: hidden;
-            width: 60%;
-            min-width: 55%;
+            // width: 60%;
+            // min-width: 55%;
+
+            @media(max-width: 1024px) {
+                display: none;
+            }
         }
+
+        
     
         .search-input-wrapper {
             flex: 1;
@@ -70,8 +101,14 @@ header {
             
             margin-left: 16px;
             display: block;
-            width: 50px;
-            height: 50px;
+            width: 35px;
+            height: 35px;
+            background-size: contain;
+
+            @media(max-width: 768px) {
+                width: 30px;
+                height: 30px;
+            }
         }
     
         .user-icon-container {

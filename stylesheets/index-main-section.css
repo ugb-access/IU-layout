@@ -14,6 +14,16 @@ main .main-section-title {
 main .main-section-title h2 {
   text-transform: uppercase;
 }
+@media (max-width: 1024px) {
+  main .main-section-title h2 {
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 660px) {
+  main .main-section-title h2 {
+    font-size: 1.25rem;
+  }
+}
 main .main-section-title h2:after {
   content: "";
   border-bottom: 4px solid #FA6A35;
@@ -82,8 +92,23 @@ main .carousel-container .custom-prev-btn {
   align-items: center;
   color: #fff;
 }
+@media (max-width: 1024px) {
+  main .carousel-container .custom-prev-btn {
+    background-color: #F2F6F7;
+    top: 0;
+    bottom: 0;
+    height: unset;
+    display: none;
+  }
+}
 main .carousel-container .custom-prev-btn i {
   font-size: 30px;
+}
+@media (max-width: 660px) {
+  main .carousel-container .custom-prev-btn i {
+    font-size: 20px;
+    color: #fa6a35;
+  }
 }
 main .carousel-container .custom-next-btn {
   background-color: rgba(255, 255, 255, 0.6);
@@ -98,8 +123,22 @@ main .carousel-container .custom-next-btn {
   align-items: center;
   color: #fff;
 }
+@media (max-width: 1024px) {
+  main .carousel-container .custom-next-btn {
+    background-color: #F2F6F7;
+    top: 0;
+    bottom: 0;
+    height: unset;
+  }
+}
 main .carousel-container .custom-next-btn i {
   font-size: 30px;
+}
+@media (max-width: 1024px) {
+  main .carousel-container .custom-next-btn i {
+    font-size: 20px;
+    color: #fa6a35;
+  }
 }
 main .product-cards-more-to-love {
   display: flex;
@@ -111,7 +150,20 @@ main .product-cards-more-to-love .product-card-container {
   margin-bottom: 16px;
   width: calc((100% / 5) - 16px);
 }
-main .product-cards-more-to-love .discover-more-btn {
+@media (max-width: 1024px) {
+  main .product-cards-more-to-love .product-card-container {
+    width: calc((100% / 3) - 16px);
+  }
+}
+@media (max-width: 660px) {
+  main .product-cards-more-to-love .product-card-container {
+    width: calc((100% / 2) - 16px);
+  }
+  main .product-cards-more-to-love .product-card-container:nth-child(even) {
+    margin-right: 0;
+  }
+}
+main .discover-more-btn {
   text-transform: uppercase;
   color: #fff;
   background-color: #FA6A35;
@@ -120,6 +172,8 @@ main .product-cards-more-to-love .discover-more-btn {
   border-radius: 5px;
   padding: 8px 24px;
   margin-top: 16px;
+  width: max-content;
+  margin: 16px auto 0;
 }
 
-/*# sourceMappingURL=index-main.css.map */
+/*# sourceMappingURL=index-main-section.css.map */

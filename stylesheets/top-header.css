@@ -14,6 +14,24 @@ header #top-header .top-header-inner-wrapper {
   height: 75px;
   align-items: center;
 }
+@media (max-width: 768px) {
+  header #top-header .top-header-inner-wrapper {
+    height: 55px;
+  }
+}
+header #top-header .top-header-inner-wrapper .col-1 {
+  display: flex;
+  align-items: center;
+}
+header #top-header .top-header-inner-wrapper .col-2 {
+  width: 60%;
+  min-width: 55%;
+}
+@media (max-width: 1024px) {
+  header #top-header .top-header-inner-wrapper .col-2 {
+    display: none;
+  }
+}
 header #top-header .burger-icon-container {
   padding: 4px 0;
   cursor: pointer;
@@ -21,23 +39,35 @@ header #top-header .burger-icon-container {
 header #top-header .burger-icon > i {
   font-size: 34px;
 }
+@media (max-width: 1024px) {
+  header #top-header .burger-icon > i {
+    font-size: 28px;
+  }
+}
 header #top-header #logo-container > a {
   display: block;
   max-width: 150px;
-  min-width: 125px;
+}
+@media (max-width: 1024px) {
+  header #top-header #logo-container > a {
+    max-width: 125px;
+  }
 }
 header #top-header .logo {
   display: block;
   width: 100%;
 }
-header #top-header #search-container {
+header #top-header #search-container-desktop {
   border: 3px solid #FF6801;
   border-radius: 7px;
   display: flex;
   background-color: #FF6801;
   overflow: hidden;
-  width: 60%;
-  min-width: 55%;
+}
+@media (max-width: 1024px) {
+  header #top-header #search-container-desktop {
+    display: none;
+  }
 }
 header #top-header .search-input-wrapper {
   flex: 1;
@@ -60,8 +90,15 @@ header #top-header #top-header-links-wrapper {
 header #top-header #top-header-links-wrapper > a {
   margin-left: 16px;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  header #top-header #top-header-links-wrapper > a {
+    width: 30px;
+    height: 30px;
+  }
 }
 header #top-header .user-icon-container {
   background: url("../images/icons/user.svg") no-repeat center;

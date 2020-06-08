@@ -1,0 +1,29 @@
+#iu-stories-mobile {
+  display: none;
+}
+@media (max-width: 1024px) {
+  #iu-stories-mobile {
+    display: block;
+    overflow: hidden;
+  }
+  #iu-stories-mobile .iu-stories-inner-wrapper {
+    display: flex;
+  }
+  #iu-stories-mobile .iu-stories-inner-wrapper .owl-stage-outer .owl-stage {
+    display: flex;
+  }
+  #iu-stories-mobile .iu-stories-inner-wrapper .owl-stage-outer .owl-stage .iu-story-container .iu-story-img {
+    width: 50px;
+    background-color: #ccc;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #iu-stories-mobile .owl-dots {
+    display: none;
+  }
+  #iu-stories-mobile .owl-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=iu-stories-mobile.css.map */
